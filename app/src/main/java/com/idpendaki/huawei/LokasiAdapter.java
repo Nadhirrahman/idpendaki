@@ -54,10 +54,6 @@ public class LokasiAdapter extends RecyclerView.Adapter<LokasiAdapter.LokasiAdap
         }
 
         public void bind(String lokasi, int position){
-            if (lokasi.equalsIgnoreCase("Jawa Timur")) imageLokasi.setImageResource(R.drawable.ic_jatim);
-            else if (lokasi.equalsIgnoreCase("Jawa Tengah")) imageLokasi.setImageResource(R.drawable.ic_jateng);
-            else if (lokasi.equalsIgnoreCase("Jawa Barat")) imageLokasi.setImageResource(R.drawable.ic_jabar);
-            else if (lokasi.equalsIgnoreCase("Luar Pulau Jawa")) imageLokasi.setImageResource(R.drawable.ic_luar_jawa);
 
             tvLokasi.setText(lokasi);
 
