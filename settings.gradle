@@ -1,0 +1,12 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {url 'https://developer.huawei.com/repo/'}
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Info Pendakian"
+include ':app'
+
