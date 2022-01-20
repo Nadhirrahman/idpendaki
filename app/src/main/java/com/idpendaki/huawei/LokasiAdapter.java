@@ -43,13 +43,12 @@ public class LokasiAdapter extends RecyclerView.Adapter<LokasiAdapter.LokasiAdap
 
     public class LokasiAdapterViewHolder extends RecyclerView.ViewHolder {
         TextView tvLokasi;
-        ImageView imageLokasi;
         CardView cvListLokasi;
+
         public LokasiAdapterViewHolder(@NonNull View itemView) {
             super(itemView);
 
             tvLokasi = itemView.findViewById(R.id.tvLokasi);
-            imageLokasi = itemView.findViewById(R.id.imageLokasi);
             cvListLokasi = itemView.findViewById(R.id.cvListLokasi);
         }
 

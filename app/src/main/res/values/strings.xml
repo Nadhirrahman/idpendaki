@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Info Pendakian</string>
+    <string name="app_name">ID Pendaki</string>
     <string name="api_key">AIzaSyCnOupeHpmy7epadSmq5oAxmdl-EmSrYGk</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

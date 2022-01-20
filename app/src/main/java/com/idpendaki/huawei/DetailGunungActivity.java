@@ -19,6 +19,8 @@ import com.huawei.hms.maps.SupportMapFragment;
 import com.huawei.hms.maps.model.CameraPosition;
 import com.huawei.hms.maps.model.LatLng;
 import com.huawei.hms.maps.model.MarkerOptions;
+import com.idpendaki.huawei.Gunung;
+import com.idpendaki.huawei.R;
 
 public class DetailGunungActivity extends AppCompatActivity implements OnMapReadyCallback {
 
